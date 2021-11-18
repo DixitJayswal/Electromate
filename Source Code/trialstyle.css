@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progress{
+    height: 3px;
+    background-color: red;
+    animation: load 1s ease-in-out 1;
+}
+@keyframes load {
+    0%{
+        width: 10vw;
+    }
+    60%{
+        width: 40vw;
+    }
+    80%{
+        width: 85vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+.container1{
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.navbar1{
+    display: flex;
+    font-size: 3vh;
+    top: 2vh;
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+}
+.navbar2{
+    display: flex;
+    font-size: 3vh;
+    top: 2vh;
+    position: absolute;
+    right: 1vw;
+}
+.listitems1{
+    display: inline;
+    padding: 0 20px;
+    font-size: 3.5vh;    
+}
+.listitems1:hover{
+    font-size: 3.7vh;    
+}
+.container2{
+   display: flex;
+   height: 10vh;
+   width: 100%;
+   background-color: white;
+   color: black;
+   align-items:center;
+}
+.navbar3{
+    display: flex;
+    font-size: 7vh;
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    left: 1vw;
+}
+.searchbar{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 35vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: absolute;
+    top: 10vh;
+    left: 27vw;
+}
+#search{
+    width: 32vw;
+    height: 3vh;
+    font-size: 2.3vh;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0.7vw;
+    top: 1.2vh;
+}
+#symbol{
+    font-size: 3vh;
+    position: absolute;
+    left: 33vw;
+    top: 1vh;
+}
+.navbar4{
+    display: flex;
+    position: absolute;
+    left: 70vw;
+}
+.listitems2{
+    display: inline;
+    padding: 0 20px;
+    font-size: 4vh;
+}
+.container3{
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(179, 190, 190);
+    color: black;
+}
+.navbar5{
+    display: flex;
+    align-items: center;
+}
+.listitems3{
+    display: inline;
+    padding: 0 20px;
+    font-size: 3vh;
+}
+.listitems3:hover{
+    
+    color: rgb(119, 123, 201);
+}
+.container4{
+    color: yellow;
+    height: 80vh;
+    width: 100vw;
+    right: 10vh;
+    background-image: url(https://wallpapercave.com/wp/wp5077168.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.cont4{
+    padding-left: 100px;
+   padding-top: 160px;
+}
+@keyframes animate{
+    
+    0%{
+        background-image: url(https://www.windowscentral.com/sites/wpcentral.com/files/styles/w1600h900crop/public/field/image/2019/06/lenovo-ideapad-s940-hero.jpg?itok=kWZO2JwO);
+    }30%{
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/438/135/656/speakers-audio-wallpaper-preview.jpg);
+    }
+    60%{
+        background-image: url(https://wallpapercave.com/wp/wp5077168.jpg);
+    }
+    80%{
+        background-image: url(https://www.hollywoodreporter.com/wp-content/uploads/2021/04/apple_ipad-pro-spring21_hero_04202021-H-2021-1618941973.jpg);
+    }
+    100%{
+        background-image: url(https://pyxis.nymag.com/v1/imgs/819/12a/46aa0a6292788f5febd7065e16374fdc2a-30-drone-lede.2x.rsocial.w600.jpg);
+    }
+}
+#btn1{
+    height: 4vh;
+    width: 8vw;
+    font-size: 3vh;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+}
+.content{
+    width: 100vw;
+    height: 80vh;
+}
+.cont4{
+    font-size: 10vh;
+    font-weight: normal;  
+    left: 5vw;
+    top: 50vh;
+}
+#btn2{
+    height: 7vh;
+    width: 12vw;
+    font-size: 3vh;
+    background-color: rgb(134, 3, 241);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 85vh;
+    left: 10vw;
+}
+#btn2:hover{
+    background-color: black;
+}
+.container5{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(236, 234, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagecontent1{
+    position: relative;
+}
+#imgcnt1{
+    position: absolute;
+    font-size: 4vh;
+    top: -50vh;
+    left: 3vw;
+    color: white;
+}
+#imgcnt2{
+    position: absolute;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    top: -44vh;
+    left: 3vw;
+}
+#imgcnt3{
+    position: absolute;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    top: -34vh;
+    left: 3vw;
+}
+#imgcnt4{
+    position: absolute;
+    font-size: 2.7vh;
+    color: white;
+    top: -23vh;
+    left: 3vw;
+}
+#btn3{
+    position: absolute;
+    height: 7vh;
+    width: 12vw;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    color: black;
+    background-color: white;
+    top: -15vh;
+    left: 4vw;
+    border-radius: 40px;
+}
+#btn3:hover{
+    background-color: aqua;
+}
+.imagecontent2{
+    position: relative;
+}
+#cnt1{
+    position: absolute;
+    font-size: 4vh;
+    top: -53vh;
+    left: 1.5vw;
+    color: white;
+}
+#cnt2{
+    position: absolute;
+    font-size: 6.5vh;
+    font-weight: bold;
+    top: -47vh;
+    left: 1.3vw;
+    color: white;
+}
+#cnt3{
+    position: absolute;
+    font-size: 6.5vh;
+    font-weight: bold;
+    top: -39vh;
+    left: 1.4vw;
+    color: white;
+}
+#cnt4{
+    position: absolute;
+    font-size: 6.5vh;
+    font-weight: bold;
+    top: -31vh;
+    left: 1.2vw;
+    color: white;
+}
+#cnt5{
+    position: absolute;
+    font-size: 3.5vh;
+    top: -22vh;
+    left: 1.3vw;
+    color: white;
+}
+#btn4{
+    position: absolute;
+    height: 7vh;
+    width: 12vw;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    color: black;
+    background-color: white;
+    top: -15vh;
+    left: 4vw;
+    border-radius: 40px;
+}
+#btn4:hover{
+    background-color: palegreen;
+}
+
+.container6-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container6-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image{
+    border-radius: 40px;
+    height: 200px;
+    width: 250px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+.image:hover{
+    height: 210px;
+    width: 260px;
+    border-radius: 40px;
+}
+.big{
+    background-color: rgb(236, 234, 240);
+}
