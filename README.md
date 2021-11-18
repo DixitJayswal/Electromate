@@ -1,4 +1,4 @@
 # Electromate
 Hi there 
-This Dixit  Jayswal.
+Dixit Jayswal here.
 Team member : Vatsal Jadav , Trushit Jaiswal;
